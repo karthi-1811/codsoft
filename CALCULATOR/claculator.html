@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karthi.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+</body>
+<div class="container">
+    <div class="display">
+       <input type="text" placeholder="0" class="disp" id="output-screen">
+    </div>
+    <div class="buttonall">
+    <div class="r1">
+    <button onclick="display('7')" class="b7">7</button>
+    <button onclick="display('8')" class="b8">8</button>
+    <button onclick="display('9')" class="b9">9</button>
+    <button onclick="display('+')" class="add">+</button>
+    <button onclick="clr()" class="clear">clear</button>
+    </div>
+    <div class="r2">
+        <button onclick="display('4')" class="b4">4</button>
+        <button onclick="display('5')" class="b5">5</button>
+        <button onclick="display('6')" class="b6">6</button>
+        <button onclick="display('-')" class="sub">-</button>
+        <button onclick="display('/')" class="division">%</button>
+    </div>
+    <div class="r3"> 
+        <button onclick="display('1')" class="b1">1</button>
+        <button onclick="display('2')" class="b2">2</button>
+        <button onclick="display('3')" class="b3">3</button>
+        <button onclick="display('X')" class="multi">X</button>
+        <button onclick="calculate()" class="equal">=</button>
+    </div>
+    </div>
+</div>
+<script>
+    let outputscreen= document.getElementById("output-screen")
+    function display(num){
+        outputscreen.value += num;
+    }
+    function calculate(){
+        try{
+            outputscreen.value = eval(outputscreen.value);
+    }
+    catch(err){
+        alert('invalid')
+    }
+    }
+    function clr(){
+        outputscreen.value='0'
+    }
+    //developer by karthikeyan A
+</script>
+</html>
