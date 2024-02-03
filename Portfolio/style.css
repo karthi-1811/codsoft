@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#particles-js{
+    background-image: url("./images/background.jpg");
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+.pic{
+    margin-top: -480px;
+   padding-left: 350px;
+   display: flex;
+
+}
+.container{
+    padding-left: 50px;
+}
+.name{
+    font-size: 60px;
+    font-family: 'Mac Sans';
+}
+@font-face {
+    font-family: 'Mac Sans';
+    src: url('./font/MacsansRegular-VG2YV.otf');
+  }
+  .p1{
+    font-size: 20px;
+  }
+  .d1{
+    padding-top: 50px;
+    font-size: 18px;
+  }
+  .social{
+    width: 70px;
+  }
+  .social1{
+    width: 70px;
+    margin-top: -13px;
+  }
+  .contain-social{
+    margin-top: -25px;
+    display: flex;
+    
+  }
+  .nav1{
+    padding-left: 1400px;
+    padding-top: 30px;
+    display: flex;
+    gap: 40px;
+    font-family: 'Migae';
+
+  }
+  a{
+    text-decoration: none;
+  }
+  @font-face {
+    font-family: 'Migae';
+    src: url('./font/MigaeSemibold-3zd2M.otf');
+  }
+ 
+.name1{
+  font-size: 100px;
+}
+.des{
+  padding-left: 350px;
+  padding-top: 90px;
+}
+.para1{
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: 'Grotley';
+  word-spacing: 5px;
+}
+@font-face {
+  font-family: 'Grotley';
+  src: url(./font/GrotleyItalic-7BD9D.otf);
+}
+.res1{
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 100px;
+  
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.foot1{
+  background: rgb(241,234,219);
+  background: linear-gradient(174deg, rgba(241,234,219,1) 26%, rgba(209,172,128,1) 52%, rgba(223,101,101,1) 78%);
+  height: 650px;
+  margin-top: 1000px;
+  padding-left: 350px;
+  display: flex;
+}
+.get1{
+  padding-top: 55px;
+  font-size: 35px;
+  font-family: 'Grotley';
+}
+.con1{
+  padding-top:150px;
+  margin-left: -192px;
+  font-size: 25px;
+}
+.mail1{
+  padding-top: 20px;
+}
+.let{
+  font-size: 22px;
+  padding-left: 100px;
+  padding-top: 145px;
+}
+.u1{
+  text-align: center;
+}
+.name2{
+  background: transparent;
+  border: 1px solid red;
+  width: 400px;
+  height: 30px;
+  margin-top: 30px;
+
+}
+.name2:focus {
+  outline: 3px solid #FFCC00;
+  box-shadow: 0 0 10px #FFCC00;
+}
+.des1:focus {
+  outline: 3px solid #FFCC00;
+  box-shadow: 0 0 10px #FFCC00;
+}
+.des1{
+  background: transparent;
+  border: 1px solid red;
+  width: 400px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.but1{
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 140px;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor:  pointer;
+  background-color: rgb(231, 13, 5);
+}
+.copy1{
+  text-align: center;
+  padding-top: 110px;
+  padding-left: 30px;
+}
+.footimg1{
+  padding-top: 150px;
+  width: 80px;
+  padding-left: 180px;
+}
+.footimg2{
+ margin-top: 200px;
+ width: 80px;
+ margin-left: -80px;
+}
+.footimg3{
+  margin-top: 285px;
+  width: 80px;
+  margin-left: -75px;
+ }
+.n1{
+  text-align: center;
+  padding-top: 5%;
+}
